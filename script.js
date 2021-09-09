@@ -11,7 +11,7 @@ const INPUT_LABELS = ['Webcam', 'Unsplash', 'Big Buck Bunny']
 const INPUT_SOURCES = [
   window.CanvasComponent.playableFactory.webcam(),
   window.CanvasComponent.playableFactory.image('https://source.unsplash.com/random'),
-  window.CanvasComponent.playableFactory.video('./media/BigBuckBunny_trailer.ogg'),
+  window.CanvasComponent.playableFactory.video('./media/BigBuckBunny_trailer.webm'),
   window.CanvasComponent.playableFactory.bars(),
   window.CanvasComponent.playableFactory.bars(),
   window.CanvasComponent.playableFactory.bars(),
