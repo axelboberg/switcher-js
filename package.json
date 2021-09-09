@@ -1,0 +1,25 @@
+{
+  "name": "switcher",
+  "version": "1.0.0",
+  "description": "A video switcher written in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelboberg/switcher-js.git"
+  },
+  "keywords": [
+    "switcher",
+    "video",
+    "production",
+    "television"
+  ],
+  "author": "Axel Boberg (hello@axelboberg.se)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axelboberg/switcher-js/issues"
+  },
+  "homepage": "https://github.com/axelboberg/switcher-js#readme"
+}
