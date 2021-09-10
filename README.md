@@ -1,6 +1,8 @@
 # Switcher JS
 A video switcher implemented in Javascript for running in Google Chrome
 
+[Try demo (Google Chrome only)](https://axelboberg.github.io/switcher-js/)
+
 ## Usage
 
 ### Setup
