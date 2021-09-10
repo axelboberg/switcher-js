@@ -31,7 +31,7 @@ Setup outputs
 ;(function () {
   for (let i = 0; i < OUTPUT_LABELS.length; i++) {
     const canvas = new window.CanvasComponent()
-    canvas.source = window.CanvasComponent.playableFactory.color('red')
+    canvas.source = window.CanvasComponent.playableFactory.color('black')
 
     outputCanvases[i] = canvas
 
