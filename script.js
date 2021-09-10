@@ -7,7 +7,7 @@
 const OUTPUT_LABELS = ['PVW', 'PGM']
 
 const INPUT_ROWS = 2
-const INPUT_LABELS = ['Webcam', 'Unsplash', 'Big Buck Bunny']
+const INPUT_LABELS = ['Webcam', 'Unsplash', 'Big Buck Bunny',,,,,'Black']
 const INPUT_SOURCES = [
   window.CanvasComponent.playableFactory.webcam(),
   window.CanvasComponent.playableFactory.image('https://source.unsplash.com/random'),
@@ -16,7 +16,7 @@ const INPUT_SOURCES = [
   window.CanvasComponent.playableFactory.bars(),
   window.CanvasComponent.playableFactory.bars(),
   window.CanvasComponent.playableFactory.bars(), 
-  window.CanvasComponent.playableFactory.bars()
+  window.CanvasComponent.playableFactory.color('black')
 ]
 
 const outputs = document.querySelector('.outputs')
